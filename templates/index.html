@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Weather App</h1>
+        <h3>By Prasanna</h3>
+    </div>
+    <div class="main">
+        <form action="/" method="POST">
+            <input type="text" id="location" name="location" placeholder="Enter the Place"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+    </div>
+</body>
+</html>

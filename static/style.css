@@ -1,0 +1,19 @@
+body{
+    height:100vh;
+    background-image: url("pic.jpg");
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    text-align:center;
+    padding-top:15%;
+}
+.main{
+    text-align:center;
+}
+
+.details{
+    text-align:center;
+    padding-top:15%;
+}
